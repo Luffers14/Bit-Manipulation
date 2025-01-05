@@ -14,7 +14,7 @@ int main()
     n >>= 1;        // Right shift to process the next bit
   }
 
-  if (n<=0 || ct!=1)    // if the number is negative or zero or has number of count bits other than zero it is not a power of two.
+  if (n<=0 || ct!=1)    // if the number is negative or zero or has number of count bits other than one it is not a power of two.
   {
     printf("The number is not a power of two.");
   }
